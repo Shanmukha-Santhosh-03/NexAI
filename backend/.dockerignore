@@ -1,0 +1,54 @@
+
+# Environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Firebase and other private credentials
+serviceAccountKey.json
+**/serviceAccountKey.json
+firebase-adminsdk*.json
+**/firebase-adminsdk*.json
+*.pem
+**/*.pem
+*.key
+**/*.key
+*.p12
+**/*.p12
+*.pfx
+**/*.pfx
+
+# Installed dependencies
+node_modules/
+**/node_modules/
+
+# Generated build output
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+
+
+# Logs and temporary files
+logs/
+**/logs/
+*.log
+**/*.log
+tmp/
+**/tmp/
+temp/
+**/temp/
+.cache/
+**/.cache/
+
+
+# Git and operating-system files
+.git/
+**/.git/
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
